@@ -3,9 +3,14 @@
     src: url(Raleway-Italic.ttf); 
    }
 
+@font-face
+{
+    font-family: OpenSans;
+    src: url(OpenSans-Regular.ttf);
+}
+
 body
 {
-    width: 1400px;
     margin: 0;
 }
 
@@ -38,11 +43,10 @@ hr
 
 .description
 {
-    width: 363px;
     height: 19px;
     margin-top: 33px;
-    margin-left: 519px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-family: OpenSans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -52,9 +56,9 @@ hr
 
 .main
 {
-    width: 1400px;
     height: 340px;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
+    text-align: center;
 }
 
 .cercle
@@ -77,15 +81,18 @@ img
     display: inline-block;
     width: 350px;
     height: 225px;
-    margin-left: 81px;
     margin-top: 31px;
-}
+    padding-right: 16px;
+    padding-left: 16px;
+}  
+
+
 
 .title_box
 {
     height: 29px;
     margin-top: 30px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: OpenSans;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -95,7 +102,7 @@ img
 
 .text
 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: OpenSans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -103,4 +110,5 @@ img
     text-align: center;
     color: #000000;
     width: 350px;
+    height: 60px;
 }
